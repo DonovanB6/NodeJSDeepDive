@@ -7,7 +7,7 @@ const { validationResult } = require("express-validator");
 
 var auth = {
   auth: {
-    api_key: "2cf05fccecd8551877c776cf7a420ad4-f68a26c9-8028fb9a",
+    api_key: process.env.MAILGUN_KEY,
     domain: "sandbox1fbe32ed09c040aa9d9cd7ec9f0416c5.mailgun.org",
   },
 };
