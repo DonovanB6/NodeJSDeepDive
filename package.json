@@ -1,0 +1,43 @@
+{
+  "name": "nodejsdeepdive",
+  "version": "1.0.0",
+  "description": "NodeJS Deep Dive",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production MONGO_USER=DonB MONGO_PASS=DonB MONGO_DEFAULT_DB=shop STRIPE_KEY=sk_test_51P2brbP8PFlem7pRqqVQjNrnaptdKY0kFykQ9BclUvawL78Bahx9km0qC1LPcrNiSswkMem15c8FNsSfcvmDoz1100ZM1D3WT9 node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "author": "Donovan Benson",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^5.0.0",
+    "csurf": "^1.11.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-handlebars": "3.0",
+    "express-session": "^1.18.0",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.1.0",
+    "mongodb": "^6.4.0",
+    "mongoose": "^8.2.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.9.2",
+    "nodemailer": "^6.9.13",
+    "nodemailer-mailgun-transport": "^2.1.5",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "pdfkit": "^0.15.0",
+    "pug": "^3.0.2",
+    "save": "^2.9.0",
+    "sequelize": "^6.37.1",
+    "stripe": "^14.24.0"
+  }
+}
