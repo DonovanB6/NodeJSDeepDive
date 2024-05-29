@@ -1,8 +1,0 @@
-{
-  "env": {
-    "MONGO_USER": "DonB",
-    "MONGO_PASS": "DonB",
-    "MONGO_DEFAULT_DB": "shop",
-    "STRIPE_KEY": "sk_test_51P2brbP8PFlem7pRqqVQjNrnaptdKY0kFykQ9BclUvawL78Bahx9km0qC1LPcrNiSswkMem15c8FNsSfcvmDoz1100ZM1D3WT9"
-  }
-}
